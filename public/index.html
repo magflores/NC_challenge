@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Combin challenge</title>
+    <!-- FONT OSWALD -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <table class="center">
+        <tr>
+            <th>Home</th>
+            <th>Other page</th>
+        </tr>
+    </table>
+
+    <div class="row">
+        <div class="column">
+            <form class="form" id="myForm">
+                <div class="row">
+                    <input type="text" placeholder="First Name" id="firstName" name="firstName" required>
+                </div>
+                <div class="row">
+                    <input type="text" placeholder="Last Name" id="lastName" name="lastName" required>
+                </div>
+                <div class="row">
+                    <input type="text" placeholder="Address" id="address" name="address" required>
+                </div>
+                <div class="row">
+                    <input type="text" placeholder="SSN" id="ssn" name="ssn" required>
+                </div>
+                <button type="reset">Reset</button>
+                <button type="submit">Save</button>
+            </form>  
+        </div>
+        <div class="column">
+            <table class="right">
+                <!-- <colegroup>
+                    <col id="firstName"/>
+                    <col id="lastName"/>
+                    <col id="address"/>
+                    <col id="ssn"/>
+                </colegroup> -->
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Address</th>
+                        <th>SSN</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </table>
+
+    <table class="bottom">
+        <tr>
+            <th class="l">copyright</th>
+            <th class="r">All rights reserved</th>
+        </tr>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+</html>

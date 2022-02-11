@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;   
+}
+
+body {
+    background: #000000;
+    color: #ffffff;
+    background-color: #000000;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.19'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.center {
+    width: 90%;
+    border-collapse: collapse;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.center th {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.right {
+    border-collapse: collapse;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 42%;
+    margin-top: none;
+    text-align: center;
+    width: 50%;
+}
+
+.right th {
+    border: 1px solid;
+    padding: 10px;
+    font-size: 26px;
+}
+
+.right td {
+    font-size: 22px;
+    padding: 5px;
+}
+
+.bottom {
+    width: 90%;
+    margin-top: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid;
+    padding: 20px;
+}
+
+.bottom .l {
+    text-align: left;
+}
+
+.bottom .r {
+    text-align: right;
+}
+
+.form {
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    margin-left: 240px;
+    margin-top: 50px;
+}
